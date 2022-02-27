@@ -12,4 +12,6 @@ Enumerable.Range(0, (DateVar.AddYears(1) - DateVar).Days) //Creating a day colle
 .Select(Function(day) DateVar.AddDays(day)).ToList //Format and output the dates in a list
 ```
 
-[^1]: Ref - https://docs.microsoft.com/en-us/dotnet/api/system.dayofweek?view=net-6.0 
+Day of week Enum Reference [^1]
+
+[^1]: https://docs.microsoft.com/en-us/dotnet/api/system.dayofweek?view=net-6.0 
